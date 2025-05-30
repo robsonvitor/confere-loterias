@@ -1,0 +1,12 @@
+{
+  "env": {
+    "DEBUG": false
+  },
+  "telegram": {
+    "token": "",
+    "chat_id": ""
+  },
+  "database": {
+    "file": "seu_banco.db"
+  }
+}
