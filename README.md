@@ -12,8 +12,10 @@ source venv_loterias/bin/activate
 pip install -r requirements.txt
 ```
 
-## Preencha o arquivo settings.json com as suas variáveis;
-
+## Renomeie o arquivo settings.json e preencha com as suas variáveis;
+```bash
+mv -i settings.example.json settings.json
+```
 
 ## Executar a aplicação 
 
@@ -21,7 +23,7 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-. Na primeira execução será criado o banco;
-. Após criado o banco, acesse ele e insira os dados das apostas;
-. Execute novamente para realizar a conferência dos concursos apostados.
+1. Na primeira execução será criado o banco;
+2. Após criado o banco, acesse ele e insira os dados das apostas;
+3. Execute novamente para realizar a conferência dos concursos apostados.
 
