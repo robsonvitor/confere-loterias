@@ -3,6 +3,9 @@
 1. Ele conecta ao webservice da caixa e faz o download dos resultados das loterias e concursos, conforme definido no banco de dados;
 2. Confere os resultados com os números apostados;
 3. Caso tenha acertos, ele envia uma mensagem para o Telegram, conforme definido no arquivo settings.json;
+
+!["Mensagem Telegram"](mensagem_recebido_no_telegram.png "Exemplo de mensagem recebida no Telegram")
+
 4. Se o campo ```DEBUG``` estiver como ```true``` no arquivo ```settings.json```, o script imprime os resultados no terminal.
 
 ### Criar o virtualenv
